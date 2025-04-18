@@ -70,7 +70,7 @@ export default function Resources() {
           <div className="md:order-3">
             <h3 className="text-2xl font-bold mb-4 text-black">Designed for Real Workplaces</h3>
             <p className="text-gray-700 mb-4 leading-relaxed">
-              Whether you're managing hundreds of employees or a handful of rotating learners,
+              Whether you&apos;re managing hundreds of employees or a handful of rotating learners,
               Atlas scales to meet your needs.
             </p>
             <ul className="text-gray-700 space-y-2">
@@ -88,7 +88,7 @@ export default function Resources() {
             <h3 className="text-2xl font-bold mb-4 text-black">Safe. Secure. Seamless</h3>
             <p className="text-gray-700 mb-4 leading-relaxed">
             Your data is protected with enterprise-grade encryption and authentication. <br />
-            Atlas is fully compliant and designed for peace of mind—whether you're managing sensitive meetings or public events.
+            Atlas is fully compliant and designed for peace of mind—whether you&apos;re managing sensitive meetings or public events.
             </p>
           </div>
 

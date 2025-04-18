@@ -51,7 +51,7 @@ export default function Solutions() {
             </h3>
             <p className="text-sm text-gray-700 max-w-xs mx-auto">
               Join teams that are already transforming how they work with Atlas.
-              Whether you're booking one room or a hundred, it all starts here.
+              Whether you&apos;re booking one room or a hundred, it all starts here.
             </p>
           </div>
         </div>
