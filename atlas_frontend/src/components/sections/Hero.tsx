@@ -36,7 +36,7 @@ export default function Hero() {
 
         {/* Paragraph */}
         <p className="text-base text-gray-600 mb-8 max-w-2xl mx-auto">
-          Whether you're a growing company or a dynamic learning institution, Atlas helps you streamline workspace bookings, boost space efficiency, and keep everyone in sync without the chaos.
+          Whether you&apos;re a growing company or a dynamic learning institution, Atlas helps you streamline workspace bookings, boost space efficiency, and keep everyone in sync without the chaos.
         </p>
 
         {/* Buttons */}

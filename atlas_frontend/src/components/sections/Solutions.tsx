@@ -24,7 +24,7 @@ export default function Solutions() {
             With The Tools You Already Use
           </h2>
           <p className="text-gray-700 text-base leading-relaxed max-w-md">
-            Easily integrate Atlas into your existing workflow whether it's
+            Easily integrate Atlas into your existing workflow whether it&apos;s
             collaboration platforms, calendar tools, or secure authentication
             systems. From Google Workspace and Microsoft 365 to SAML SSO and
             beyond, Atlas fits right into your ecosystem without friction.
