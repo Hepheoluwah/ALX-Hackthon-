@@ -53,7 +53,7 @@ export default function Login() {
       });
 
       if (response.ok) {
-        const data = await response.json();
+        // const data = await response.json();
         alert("Login successful!");
         // navigate or redirect here if needed
       } else {

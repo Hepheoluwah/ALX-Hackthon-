@@ -83,7 +83,7 @@ export default function SignUp() {
       });
 
       if (response.ok) {
-        const data = await response.json();
+        // const data = await response.json();
         alert("Account created successfully!");
         // navigate or redirect here if needed
       } else {
