@@ -24,7 +24,7 @@ export default function Navbar() {
           href="/"
           className="text-3xl font-bold text-[#6C63FF] tracking-tight cursor-pointer"
         >
-          ATLAS.
+          ATLAS
         </Link>
 
         <ul className="flex space-x-6 items-center text-sm font-medium text-gray-700">
