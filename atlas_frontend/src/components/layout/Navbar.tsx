@@ -7,14 +7,9 @@ import Link from 'next/link';
 export default function Navbar() {
   const [openDropdown, setOpenDropdown] = useState<string | null>(null);
 
-  interface HandleToggleProps {
-    (menuName: string): void;
-  }
-
-  const handleToggle: HandleToggleProps = (menuName) => {
+  const handleToggle = (menuName: string) => {
     setOpenDropdown((prev) => (prev === menuName ? null : menuName));
   };
-
 
   const BulletIcon = () => (
     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -156,34 +151,30 @@ export default function Navbar() {
               transition-opacity duration-200 flex flex-col
             `}
             >
-              <a
-                href="#"
+              <Link
+                href="/solutions/for-companies"
                 className="flex items-center gap-2 px-4 py-2 hover:bg-gray-50"
               >
-                <BulletIcon /> For
-                Companies
-              </a>
-              <a
-                href="#"
+                <BulletIcon /> For Companies
+              </Link>
+              <Link
+                href="/solutions/for-learning-institutions"
                 className="flex items-center gap-2 px-4 py-2 hover:bg-gray-50"
               >
-                <BulletIcon /> For
-                Learning Institutions
-              </a>
-              <a
-                href="#"
+                <BulletIcon /> For Learning Institutions
+              </Link>
+              <Link
+                href="/solutions/for-admins"
                 className="flex items-center gap-2 px-4 py-2 hover:bg-gray-50"
               >
-                <BulletIcon /> For
-                Admins
-              </a>
-              <a
-                href="#"
+                <BulletIcon /> For Admins
+              </Link>
+              <Link
+                href="/solutions/user-authentication"
                 className="flex items-center gap-2 px-4 py-2 hover:bg-gray-50"
               >
-                <BulletIcon /> User
-                Authentication
-              </a>
+                <BulletIcon /> User Authentication
+              </Link>
             </div>
           </li>
 
@@ -213,32 +204,24 @@ export default function Navbar() {
               transition-opacity duration-200 flex flex-col
             `}
             >
-              <a
-                href="#"
+              <Link
+                href="/resources/help-center"
                 className="flex items-center gap-2 px-4 py-2 hover:bg-gray-50"
               >
-                <BulletIcon /> Help
-                Center
-              </a>
-              <a
-                href="#"
-                className="flex items-center gap-2 px-4 py-2 hover:bg-gray-50"
-              >
-                <BulletIcon /> Blog
-              </a>
-              <a
-                href="#"
+                <BulletIcon /> Help Center
+              </Link>
+              <Link
+                href="/resources/faqs"
                 className="flex items-center gap-2 px-4 py-2 hover:bg-gray-50"
               >
                 <BulletIcon /> FAQs
-              </a>
-              <a
-                href="#"
+              </Link>
+              <Link
+                href="/resources/customer-service"
                 className="flex items-center gap-2 px-4 py-2 hover:bg-gray-50"
               >
-                <BulletIcon /> Customer
-                Service
-              </a>
+                <BulletIcon /> Customer Service
+              </Link>
             </div>
           </li>
 
@@ -261,25 +244,24 @@ export default function Navbar() {
               transition-opacity duration-200 flex flex-col
             `}
             >
-              <a
-                href="#"
+              <Link
+                href="/about/our-story"
                 className="flex items-center gap-2 px-4 py-2 hover:bg-gray-50"
               >
-                <BulletIcon /> Our
-                story
-              </a>
-              <a
-                href="#"
+                <BulletIcon /> Our story
+              </Link>
+              <Link
+                href="/about/careers"
                 className="flex items-center gap-2 px-4 py-2 hover:bg-gray-50"
               >
                 <BulletIcon /> Careers
-              </a>
-              <a
-                href="#"
+              </Link>
+              <Link
+                href="/about/contact"
                 className="flex items-center gap-2 px-4 py-2 hover:bg-gray-50"
               >
                 <BulletIcon /> Contact
-              </a>
+              </Link>
             </div>
           </li>
 

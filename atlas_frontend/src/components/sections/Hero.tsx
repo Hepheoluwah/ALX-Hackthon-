@@ -30,7 +30,7 @@ export default function Hero() {
         {/* Heading */}
         <h1 className="text-black text-6xl md:text-7xl font-bold leading-tight mb-4">
           Book It. 
-          Use It. <br />
+          <span className="text-[#6C63FF]"> Use It.</span>  <br />
           Love It.
         </h1>
 
@@ -41,7 +41,7 @@ export default function Hero() {
 
         {/* Buttons */}
         <div className="flex justify-center space-x-4">
-          <button className="bg-purple-600 text-white py-2 px-6 rounded hover:bg-purple-700 transition cursor-pointer">
+          <button className="bg-[#6b63ffc4] text-white py-2 px-6 rounded hover:bg-[#6b63ff] transition cursor-pointer">
             Demo book
           </button>
           <button className="bg-white border border-gray-300 text-gray-700 py-2 px-6 rounded hover:bg-gray-100 transition cursor-pointer">

@@ -15,13 +15,13 @@ export default function Footer() {
 
         {/* Center: Links */}
         <div className="flex items-center gap-6 text-sm text-gray-800">
-          <a href="#" className="hover:underline">
+          <a href="/security" className="hover:underline">
             Security
           </a>
-          <a href="#" className="hover:underline">
+          <a href="/blog" className="hover:underline">
             Blog
           </a>
-          <a href="#" className="hover:underline">
+          <a href="/privacy" className="hover:underline">
             Privacy Policy
           </a>
         </div>
