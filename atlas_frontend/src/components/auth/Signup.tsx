@@ -101,9 +101,9 @@ export default function SignUp() {
     <div className="flex h-screen">
       {/* Left Panel */}
       <div className="w-1/2 bg-gradient-to-b from-[#E7D9FB] to-[#F0E9FF] flex flex-col justify-center items-center">
-        <h1 className="text-5xl font-extrabold text-[#6D4AFF] mb-6 tracking-wide">
-          atlas
-        </h1>
+      <a href="/" className="text-5xl font-extrabold text-[#6D4AFF] mb-6 tracking-wide cursor-pointer hover:opacity-80 transition">
+  atlas
+</a>
         <h2 className="text-xl font-semibold text-gray-800 mb-2">
           Get Started with Us
         </h2>

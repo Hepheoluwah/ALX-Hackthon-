@@ -36,7 +36,9 @@ export default function Login() {
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleFormSubmit = async (e: React.FormEvent<HTMLFormElement>): Promise<void> => {
+  const handleFormSubmit = async (
+    e: React.FormEvent<HTMLFormElement>
+  ): Promise<void> => {
     e.preventDefault();
 
     const payload = {
@@ -71,9 +73,12 @@ export default function Login() {
     <div className="flex h-screen">
       {/* Left Panel */}
       <div className="w-1/2 bg-gradient-to-b from-[#E7D9FB] to-[#F0E9FF] flex flex-col justify-center items-center">
-        <h1 className="text-5xl font-extrabold text-[#6D4AFF] mb-6 tracking-wide">
+        <a
+          href="/"
+          className="text-5xl font-extrabold text-[#6D4AFF] mb-6 tracking-wide cursor-pointer hover:opacity-80 transition"
+        >
           atlas
-        </h1>
+        </a>
         <h2 className="text-xl font-semibold text-gray-800 mb-2">
           Welcome Back!
         </h2>
@@ -87,9 +92,11 @@ export default function Login() {
               key={role}
               onClick={() => setSelectedRole(role)}
               className={`flex items-center justify-between w-full py-3 px-4 rounded-lg font-medium text-sm transform transition-transform duration-200 ease-in-out
-        ${selectedRole === role
-                  ? "bg-[#7864E8] text-white"
-                  : "bg-[#E9E4FF] text-[#7864E8]"}
+        ${
+          selectedRole === role
+            ? "bg-[#7864E8] text-white"
+            : "bg-[#E9E4FF] text-[#7864E8]"
+        }
         hover:scale-105 hover:shadow-lg active:scale-95`}
             >
               <span className="bg-white text-[#7864E8] rounded-full px-2 py-0.5 text-xs font-bold mr-3">

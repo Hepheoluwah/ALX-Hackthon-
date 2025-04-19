@@ -180,9 +180,9 @@ export default function Navbar() {
 
           {/* Pricing Link */}
           <li>
-            <a href="#" className="hover:text-black">
+            <Link href="/pricing" className="hover:text-black">
               Pricing
-            </a>
+            </Link>
           </li>
 
           {/* Resources Dropdown */}

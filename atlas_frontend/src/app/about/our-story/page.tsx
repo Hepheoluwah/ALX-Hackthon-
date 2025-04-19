@@ -12,7 +12,7 @@ export default function OurStoryPage() {
           <div className="text-center mb-16">
             <h1 className="text-4xl md:text-6xl font-extrabold text-[#6C63FF] mb-4">Our Story</h1>
             <p className="text-lg md:text-xl text-gray-600">
-              Discover the journey of Atlas — from a simple idea to a powerful platform transforming workspace rentals.
+              Atlas was born from a spark of collaboration during an ALX Hackathon — a 3-week sprint that brought together a passionate team of ALX alumni with a shared goal: to rethink workspace rentals for the modern world.
             </p>
           </div>
 
@@ -22,24 +22,24 @@ export default function OurStoryPage() {
             <div className="space-y-10 relative before:absolute before:top-0 before:left-1/2 before:-translate-x-1/2 before:h-full before:w-1 before:bg-[#6C63FF]/30">
               {[
                 {
-                  year: '2021',
-                  title: 'The Spark',
-                  desc: 'The idea for Atlas was born — a solution to the fragmented, outdated experience of finding and booking flexible workspaces.',
+                  year: 'April, 2025',
+                  title: 'Hackathon Begins',
+                  desc: 'The 3-week ALX Hackathon kicks off. A team of alumni comes together with a shared vision to simplify and modernize workspace rentals.',
                 },
                 {
-                  year: '2022',
-                  title: 'Product Launch',
-                  desc: 'We launched our MVP and onboarded our first customers. The feedback was clear: there’s a real need for this.',
+                  year: 'May 2025',
+                  title: 'Atlas is Born',
+                  desc: 'Within days, Atlas transforms from idea to prototype — showcasing a platform that connects people with flexible workspaces seamlessly.',
                 },
                 {
-                  year: '2023',
-                  title: 'Scaling Up',
-                  desc: 'We expanded across multiple cities, added mobile support, and refined our experience based on user insights.',
+                  year: 'Mid-May 2025',
+                  title: 'First Demo & User Testing',
+                  desc: 'The team validates the concept with early users, collecting feedback and rapidly improving the product.',
                 },
                 {
-                  year: '2024',
-                  title: 'Today & Beyond',
-                  desc: 'We’re building smarter features, empowering hosts and renters, and preparing for global reach.',
+                  year: 'Today & Beyond',
+                  title: 'Shaping the Future',
+                  desc: 'Atlas continues to evolve beyond the hackathon — our mission is clear: empower workspace owners and professionals through technology.',
                 },
               ].map((event, i) => (
                 <div
