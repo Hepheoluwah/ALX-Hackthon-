@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 
 export default function Login() {
   const [selectedRole, setSelectedRole] = useState("Admin");
@@ -73,12 +74,12 @@ export default function Login() {
     <div className="flex h-screen">
       {/* Left Panel */}
       <div className="w-1/2 bg-gradient-to-b from-[#E7D9FB] to-[#F0E9FF] flex flex-col justify-center items-center">
-        <a
+        <Link
           href="/"
           className="text-5xl font-extrabold text-[#6D4AFF] mb-6 tracking-wide cursor-pointer hover:opacity-80 transition"
         >
           atlas
-        </a>
+        </Link>
         <h2 className="text-xl font-semibold text-gray-800 mb-2">
           Welcome Back!
         </h2>

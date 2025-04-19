@@ -34,7 +34,7 @@ export default function PricingPage() {
         <div className="max-w-7xl mx-auto text-center">
           <h1 className="text-5xl font-extrabold mb-4 text-[#6C63FF]">Flexible Pricing</h1>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Whether you're a startup or an enterprise, Atlas has a plan for you.
+            Whether you&apos;re a startup or an enterprise, Atlas has a plan for you.
           </p>
         </div>
 
