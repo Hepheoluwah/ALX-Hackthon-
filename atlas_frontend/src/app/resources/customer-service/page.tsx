@@ -56,7 +56,7 @@ export default function CustomerServicePage() {
           {/* Final CTA */}
           <div className="text-center bg-[#6C63FF] text-white py-12 px-6 rounded-3xl">
             <h3 className="text-2xl font-bold mb-3">Still need help?</h3>
-            <p className="mb-6">Reach out to our dedicated support team — we're just a message away.</p>
+            <p className="mb-6">Reach out to our dedicated support team — we&apos;re just a message away.</p>
             <a
               href="/contact"
               className="inline-block bg-white text-[#6C63FF] font-semibold px-6 py-3 rounded-full shadow hover:bg-gray-100 transition"
